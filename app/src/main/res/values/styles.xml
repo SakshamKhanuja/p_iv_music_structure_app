@@ -3,7 +3,7 @@
     <!--Base Application Theme-->
     <style name="AppTheme" parent="Theme.MaterialComponents.Light.NoActionBar">
         <item name="android:windowTranslucentStatus">true</item>
-        <item name="android:colorAccent">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorHint</item>
         <item name="android:colorBackground">@color/colorPrimaryDark</item>
         <item name="android:textColor">@color/colorText</item>
         <item name="android:textSize">@dimen/text_size_default</item>
