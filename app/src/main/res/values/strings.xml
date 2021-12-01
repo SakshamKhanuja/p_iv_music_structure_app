@@ -1,0 +1,47 @@
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="app_name">Music</string>
+
+    <!--First Screen-->
+    <string name="descriptionFAB">Search Music</string>
+    <string name="labelFavorites">Your Favorites</string>
+    <string name="labelCategory">Global</string>
+    <string name="descriptionCD">Music CD</string>
+    <string name="descriptionTop">Top Charts</string>
+    <string name="descriptionNew">New Arrivals</string>
+    <string name="descriptionArrow">Start</string>
+    <string name="chartTop10">Top 10</string>
+    <string name="chartNew">New</string>
+    <string name="chartArrival">Arrivals</string>
+    <string name="chartEvergreen">Evergreen</string>
+    <string name="buttonGenres">Genres</string>
+    <string name="buttonLibrary">Library</string>
+    <string name="buttonChart">Charts</string>
+    <string name="buttonPlaylist">Playlists</string>
+    <string name="buttonAlbum">Albums</string>
+    <string name="buttonArtist">Artists</string>
+    <string name="buttonSubscriptions">Subscriptions</string>
+
+    <!--Genres Screen-->
+    <string name="labelSearch">Search</string>
+    <string name="hintSearch">Artists, songs, or podcasts</string>
+    <string name="labelIndia">India</string>
+    <string name="toolGenre">Rock</string>
+    <string name="descriptionRank">Rank</string>
+    <string name="storageFirst">34 GB Used</string>
+    <string name="storageLast">128 GB</string>
+
+    <!--My Library Screen-->
+    <string name="labelLibrary">My Library</string>
+
+    <!--Album Art-->
+    <string name="descriptionAlbumArt">Album Art</string>
+    <string name="descriptionPlay">Play Icon</string>
+
+    <!--Song Tool Data-->
+    <string name="songName">No Response</string>
+    <string name="artistName">Tom Macdonald</string>
+    <string name="descriptionSong">@string/songName</string>
+    <string name="yearSong">2020</string>
+    <string name="descriptionDot">Dot</string>
+
+</resources>

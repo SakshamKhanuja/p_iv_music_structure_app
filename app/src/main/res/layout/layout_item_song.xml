@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    style="@style/VerticalLL">
+
+    <LinearLayout
+        style="@style/SongContainer"
+        android:layout_marginHorizontal="@dimen/margin_default"
+        android:background="@drawable/ripple_item">
+
+        <LinearLayout
+            style="@style/BasicView"
+            android:layout_gravity="center_vertical"
+            android:gravity="center"
+            android:orientation="vertical"
+            tools:ignore="UseCompoundDrawables">
+
+            <!--Index-->
+            <TextView
+                android:id="@+id/item_index"
+                style="@style/BasicView"
+                android:layout_marginStart="@dimen/margin_small"
+                android:layout_marginEnd="@dimen/margin_default"
+                android:textStyle="bold"
+                android:visibility="gone"
+                tools:text="1" />
+
+            <!--Rank-->
+            <ImageView
+                android:id="@+id/item_rank"
+                style="@style/BasicView"
+                android:layout_marginStart="@dimen/margin_small"
+                android:layout_marginEnd="@dimen/margin_default"
+                android:contentDescription="@string/descriptionRank"
+                android:visibility="gone"
+                tools:src="@drawable/ic_inc" />
+
+        </LinearLayout>
+
+        <!--Album Art-->
+        <ImageView
+            android:id="@+id/item_album_art"
+            style="@style/AlbumArtStyle"
+            android:contentDescription="@string/descriptionAlbumArt"
+            tools:src="@drawable/album_art_no_response" />
+
+        <!--Contains Song Info-->
+        <LinearLayout
+            style="@style/WeightWidth"
+            android:layout_marginHorizontal="@dimen/margin_small"
+            android:orientation="vertical">
+
+            <!--Song Name-->
+            <TextView
+                android:id="@+id/item_song_name"
+                style="@style/SongNameStyle"
+                tools:text="@string/songName" />
+
+            <!--Artist Name-->
+            <TextView
+                android:id="@+id/item_artist_name"
+                style="@style/ArtistNameStyle"
+                tools:text="@string/artistName" />
+
+            <LinearLayout
+                style="@style/BasicView"
+                android:gravity="center_vertical">
+
+                <!--Year-->
+                <TextView
+                    android:id="@+id/item_year"
+                    style="@style/YearStyle"
+                    tools:text="@string/yearSong" />
+
+                <ImageView
+                    style="@style/BasicView"
+                    android:layout_marginHorizontal="@dimen/margin_tiny"
+                    android:contentDescription="@string/descriptionDot"
+                    android:src="@drawable/ic_dot" />
+
+                <!--Duration-->
+                <TextView
+                    android:id="@+id/item_duration"
+                    style="@style/YearStyle"
+                    tools:text="6:08" />
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+        <!--Play Icon-->
+        <ImageView
+            style="@style/BasicView"
+            android:layout_gravity="center_vertical"
+            android:contentDescription="@string/descriptionPlay"
+            android:src="@drawable/ic_play" />
+    </LinearLayout>
+
+    <!--Category Label-->
+    <TextView
+        android:id="@+id/item_category"
+        style="@style/SectionLabelStyle"
+        android:layout_marginHorizontal="@dimen/margin_default"
+        android:layout_marginTop="@dimen/margin_top_header"
+        android:layout_marginBottom="@dimen/margin_default"
+        android:visibility="gone"
+        tools:text="@string/labelCategory" />
+
+    <!--Chart Category Label-->
+    <TextView
+        android:id="@+id/item_chart_category"
+        style="@style/SectionLabelStyle"
+        android:layout_marginHorizontal="@dimen/margin_default"
+        android:layout_marginTop="@dimen/margin_top_header"
+        android:layout_marginBottom="@dimen/margin_default"
+        android:drawablePadding="@dimen/margin_default"
+        android:visibility="gone"
+        app:drawableStartCompat="@drawable/ic_chart"
+        tools:text="@string/labelCategory" />
+
+</LinearLayout>

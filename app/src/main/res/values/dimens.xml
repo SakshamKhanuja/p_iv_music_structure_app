@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--Margin-->
+    <dimen name="margin_default">16dp</dimen>
+    <dimen name="margin_end_fab">24dp</dimen>
+    <dimen name="margin_bottom_fab">24dp</dimen>
+    <dimen name="margin_small">8dp</dimen>
+    <dimen name="margin_tiny">4dp</dimen>
+    <dimen name="margin_large">24dp</dimen>
+    <dimen name="margin_top_header">30dp</dimen>
+
+    <!--Text Size-->
+    <dimen name="text_size_label_section">24dp</dimen>
+    <dimen name="text_size_label_song">16sp</dimen>
+    <dimen name="text_size_label_app">28sp</dimen>
+    <dimen name="text_size_default">16sp</dimen>
+    <dimen name="text_size_label_year">14sp</dimen>
+    <dimen name="text_size_chart">36sp</dimen>
+
+    <!--Padding-->
+    <dimen name="padding_top_first">40dp</dimen>
+    <dimen name="padding_default">16dp</dimen>
+    <dimen name="padding_small">8dp</dimen>
+
+    <!--Album Art-->
+    <dimen name="album_art">90dp</dimen>
+    <dimen name="chart_height">175dp</dimen>
+
+    <dimen name="search_height">48dp</dimen>
+</resources>

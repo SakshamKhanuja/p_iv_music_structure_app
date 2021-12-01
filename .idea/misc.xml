@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/aruni/Desktop/Documents/Udacity/Android/Android Basics Nanodegree by Google/Multi-Screen Apps/Project - Music Structure App/app/src/main/res/drawable/gradient_background.xml" value="0.403125" />
+        <entry key="..\:/Users/aruni/Desktop/Documents/Udacity/Android/Android Basics Nanodegree by Google/Multi-Screen Apps/Project - Music Structure App/app/src/main/res/drawable/gradient_background_first_screen.xml" value="0.403125" />
+        <entry key="..\:/Users/aruni/Desktop/Documents/Udacity/Android/Android Basics Nanodegree by Google/Multi-Screen Apps/Project - Music Structure App/app/src/main/res/drawable/gradient_background_genre_screen.xml" value="0.37864583333333335" />
+        <entry key="..\:/Users/aruni/Desktop/Documents/Udacity/Android/Android Basics Nanodegree by Google/Multi-Screen Apps/Project - Music Structure App/app/src/main/res/drawable/gradient_library.xml" value="0.403125" />
+        <entry key="..\:/Users/aruni/Desktop/Documents/Udacity/Android/Android Basics Nanodegree by Google/Multi-Screen Apps/Project - Music Structure App/app/src/main/res/drawable/ic_arrow.xml" value="0.37864583333333335" />
+        <entry key="..\:/Users/aruni/Desktop/Documents/Udacity/Android/Android Basics Nanodegree by Google/Multi-Screen Apps/Project - Music Structure App/app/src/main/res/drawable/ic_baseline_adjust_24.xml" value="0.403125" />
+        <entry key="..\:/Users/aruni/Desktop/Documents/Udacity/Android/Android Basics Nanodegree by Google/Multi-Screen Apps/Project - Music Structure App/app/src/main/res/drawable/ic_cd.xml" value="0.403125" />
+        <entry key="..\:/Users/aruni/Desktop/Documents/Udacity/Android/Android Basics Nanodegree by Google/Multi-Screen Apps/Project - Music Structure App/app/src/main/res/drawable/ic_cd_black.xml" value="0.37864583333333335" />
+        <entry key="..\:/Users/aruni/Desktop/Documents/Udacity/Android/Android Basics Nanodegree by Google/Multi-Screen Apps/Project - Music Structure App/app/src/main/res/drawable/ic_chart.xml" value="0.37864583333333335" />
+        <entry key="..\:/Users/aruni/Desktop/Documents/Udacity/Android/Android Basics Nanodegree by Google/Multi-Screen Apps/Project - Music Structure App/app/src/main/res/drawable/ic_default_album_art.xml" value="0.37864583333333335" />
+        <entry key="..\:/Users/aruni/Desktop/Documents/Udacity/Android/Android Basics Nanodegree by Google/Multi-Screen Apps/Project - Music Structure App/app/src/main/res/drawable/ic_desc.xml" value="0.37864583333333335" />
+        <entry key="..\:/Users/aruni/Desktop/Documents/Udacity/Android/Android Basics Nanodegree by Google/Multi-Screen Apps/Project - Music Structure App/app/src/main/res/drawable/ic_genre_rock.xml" value="0.37864583333333335" />
+        <entry key="..\:/Users/aruni/Desktop/Documents/Udacity/Android/Android Basics Nanodegree by Google/Multi-Screen Apps/Project - Music Structure App/app/src/main/res/drawable/ic_inc.xml" value="0.37864583333333335" />
+        <entry key="..\:/Users/aruni/Desktop/Documents/Udacity/Android/Android Basics Nanodegree by Google/Multi-Screen Apps/Project - Music Structure App/app/src/main/res/drawable/ic_library.xml" value="0.403125" />
+        <entry key="..\:/Users/aruni/Desktop/Documents/Udacity/Android/Android Basics Nanodegree by Google/Multi-Screen Apps/Project - Music Structure App/app/src/main/res/drawable/ic_old.xml" value="0.37864583333333335" />
+        <entry key="..\:/Users/aruni/Desktop/Documents/Udacity/Android/Android Basics Nanodegree by Google/Multi-Screen Apps/Project - Music Structure App/app/src/main/res/drawable/ic_play.xml" value="0.37864583333333335" />
+        <entry key="..\:/Users/aruni/Desktop/Documents/Udacity/Android/Android Basics Nanodegree by Google/Multi-Screen Apps/Project - Music Structure App/app/src/main/res/drawable/ic_playlist.xml" value="0.403125" />
+        <entry key="..\:/Users/aruni/Desktop/Documents/Udacity/Android/Android Basics Nanodegree by Google/Multi-Screen Apps/Project - Music Structure App/app/src/main/res/drawable/ic_punjabi.xml" value="0.37864583333333335" />
+        <entry key="..\:/Users/aruni/Desktop/Documents/Udacity/Android/Android Basics Nanodegree by Google/Multi-Screen Apps/Project - Music Structure App/app/src/main/res/drawable/ic_resource_new.xml" value="0.37864583333333335" />
+        <entry key="..\:/Users/aruni/Desktop/Documents/Udacity/Android/Android Basics Nanodegree by Google/Multi-Screen Apps/Project - Music Structure App/app/src/main/res/drawable/ic_search.xml" value="0.403125" />
+        <entry key="..\:/Users/aruni/Desktop/Documents/Udacity/Android/Android Basics Nanodegree by Google/Multi-Screen Apps/Project - Music Structure App/app/src/main/res/drawable/ic_search_hint.xml" value="0.37864583333333335" />
+        <entry key="..\:/Users/aruni/Desktop/Documents/Udacity/Android/Android Basics Nanodegree by Google/Multi-Screen Apps/Project - Music Structure App/app/src/main/res/drawable/ic_subscriptions.xml" value="0.403125" />
+        <entry key="..\:/Users/aruni/Desktop/Documents/Udacity/Android/Android Basics Nanodegree by Google/Multi-Screen Apps/Project - Music Structure App/app/src/main/res/drawable/ic_top_10.xml" value="0.37864583333333335" />
+        <entry key="..\:/Users/aruni/Desktop/Documents/Udacity/Android/Android Basics Nanodegree by Google/Multi-Screen Apps/Project - Music Structure App/app/src/main/res/drawable/ripple_item.xml" value="0.37864583333333335" />
+        <entry key="..\:/Users/aruni/Desktop/Documents/Udacity/Android/Android Basics Nanodegree by Google/Multi-Screen Apps/Project - Music Structure App/app/src/main/res/drawable/shape_background_song.xml" value="0.403125" />
+        <entry key="..\:/Users/aruni/Desktop/Documents/Udacity/Android/Android Basics Nanodegree by Google/Multi-Screen Apps/Project - Music Structure App/app/src/main/res/drawable/shape_evergreen.xml" value="0.37864583333333335" />
+        <entry key="..\:/Users/aruni/Desktop/Documents/Udacity/Android/Android Basics Nanodegree by Google/Multi-Screen Apps/Project - Music Structure App/app/src/main/res/drawable/shape_new_arrival.xml" value="0.37864583333333335" />
+        <entry key="..\:/Users/aruni/Desktop/Documents/Udacity/Android/Android Basics Nanodegree by Google/Multi-Screen Apps/Project - Music Structure App/app/src/main/res/drawable/shape_old_is_gold.xml" value="0.37864583333333335" />
+        <entry key="..\:/Users/aruni/Desktop/Documents/Udacity/Android/Android Basics Nanodegree by Google/Multi-Screen Apps/Project - Music Structure App/app/src/main/res/drawable/shape_search.xml" value="0.37864583333333335" />
+        <entry key="..\:/Users/aruni/Desktop/Documents/Udacity/Android/Android Basics Nanodegree by Google/Multi-Screen Apps/Project - Music Structure App/app/src/main/res/drawable/shape_top_10.xml" value="0.37864583333333335" />
+        <entry key="..\:/Users/aruni/Desktop/Documents/Udacity/Android/Android Basics Nanodegree by Google/Multi-Screen Apps/Project - Music Structure App/app/src/main/res/layout/activity_genre.xml" value="0.3625" />
+        <entry key="..\:/Users/aruni/Desktop/Documents/Udacity/Android/Android Basics Nanodegree by Google/Multi-Screen Apps/Project - Music Structure App/app/src/main/res/layout/activity_main.xml" value="0.3729166666666667" />
+        <entry key="..\:/Users/aruni/Desktop/Documents/Udacity/Android/Android Basics Nanodegree by Google/Multi-Screen Apps/Project - Music Structure App/app/src/main/res/layout/layout_footer_default.xml" value="0.3625" />
+        <entry key="..\:/Users/aruni/Desktop/Documents/Udacity/Android/Android Basics Nanodegree by Google/Multi-Screen Apps/Project - Music Structure App/app/src/main/res/layout/layout_footer_first_screen.xml" value="0.3625" />
+        <entry key="..\:/Users/aruni/Desktop/Documents/Udacity/Android/Android Basics Nanodegree by Google/Multi-Screen Apps/Project - Music Structure App/app/src/main/res/layout/layout_footer_library.xml" value="0.38697916666666665" />
+        <entry key="..\:/Users/aruni/Desktop/Documents/Udacity/Android/Android Basics Nanodegree by Google/Multi-Screen Apps/Project - Music Structure App/app/src/main/res/layout/layout_header_chart_screen.xml" value="0.3625" />
+        <entry key="..\:/Users/aruni/Desktop/Documents/Udacity/Android/Android Basics Nanodegree by Google/Multi-Screen Apps/Project - Music Structure App/app/src/main/res/layout/layout_header_first_screen.xml" value="0.3625" />
+        <entry key="..\:/Users/aruni/Desktop/Documents/Udacity/Android/Android Basics Nanodegree by Google/Multi-Screen Apps/Project - Music Structure App/app/src/main/res/layout/layout_header_genre_screen.xml" value="0.3625" />
+        <entry key="..\:/Users/aruni/Desktop/Documents/Udacity/Android/Android Basics Nanodegree by Google/Multi-Screen Apps/Project - Music Structure App/app/src/main/res/layout/layout_header_library.xml" value="0.3625" />
+        <entry key="..\:/Users/aruni/Desktop/Documents/Udacity/Android/Android Basics Nanodegree by Google/Multi-Screen Apps/Project - Music Structure App/app/src/main/res/layout/layout_header_library_screen.xml" value="0.3625" />
+        <entry key="..\:/Users/aruni/Desktop/Documents/Udacity/Android/Android Basics Nanodegree by Google/Multi-Screen Apps/Project - Music Structure App/app/src/main/res/layout/layout_header_main.xml" value="0.38697916666666665" />
+        <entry key="..\:/Users/aruni/Desktop/Documents/Udacity/Android/Android Basics Nanodegree by Google/Multi-Screen Apps/Project - Music Structure App/app/src/main/res/layout/layout_item_genre.xml" value="0.3625" />
+        <entry key="..\:/Users/aruni/Desktop/Documents/Udacity/Android/Android Basics Nanodegree by Google/Multi-Screen Apps/Project - Music Structure App/app/src/main/res/layout/layout_item_song.xml" value="0.3625" />
+        <entry key="..\:/Users/aruni/Desktop/Documents/Udacity/Android/Android Basics Nanodegree by Google/Multi-Screen Apps/Project - Music Structure App/app/src/main/res/layout/layout_list.xml" value="0.3625" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

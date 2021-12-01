@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    style="@style/HeaderStyle"
+    android:background="@drawable/gradient_background_genre_screen">
+
+    <!--Search Label-->
+    <TextView
+        style="@style/ActivityLabelStyle"
+        android:text="@string/labelSearch" />
+
+    <!--User searches for a song here.-->
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/search_height"
+        android:layout_marginHorizontal="@dimen/margin_default"
+        android:layout_marginVertical="@dimen/margin_small"
+        android:background="@drawable/shape_search"
+        android:drawableStart="@drawable/ic_search_hint"
+        android:drawablePadding="@dimen/padding_small"
+        android:hint="@string/hintSearch"
+        android:importantForAutofill="no"
+        android:inputType="text"
+        android:padding="@dimen/padding_small"
+        android:textColor="@color/colorHint"
+        android:textColorHint="@color/colorHint"
+        android:textStyle="bold" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginTop="@dimen/margin_default"
+        android:background="#83494848" />
+
+    <!--Favorites Label-->
+    <TextView
+        style="@style/SectionLabelStyle"
+        android:layout_marginTop="@dimen/margin_top_header"
+        android:drawablePadding="@dimen/margin_default"
+        android:text="@string/labelIndia"
+        app:drawableStartCompat="@drawable/ic_chart" />
+
+</LinearLayout>

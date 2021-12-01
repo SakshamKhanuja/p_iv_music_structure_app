@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    style="@style/HeaderStyle"
+    android:background="@drawable/gradient_library">
+
+    <!--Favorites Label-->
+    <TextView
+        style="@style/ActivityLabelStyle"
+        android:layout_marginTop="@dimen/margin_top_header"
+        android:text="@string/labelLibrary" />
+
+    <RelativeLayout style="@style/HorizontalLL">
+
+        <Button
+            style="@style/ButtonStyle"
+            android:text="@string/buttonPlaylist"
+            app:icon="@drawable/ic_playlist" />
+
+        <ImageView
+            style="@style/ArrowStyle"
+            android:contentDescription="@string/descriptionArrow" />
+    </RelativeLayout>
+
+    <RelativeLayout style="@style/HorizontalLL">
+
+        <Button
+            style="@style/ButtonStyle"
+            android:text="@string/buttonAlbum"
+            app:icon="@drawable/ic_album" />
+
+        <ImageView
+            style="@style/ArrowStyle"
+            android:contentDescription="@string/descriptionArrow" />
+    </RelativeLayout>
+
+    <RelativeLayout style="@style/HorizontalLL">
+
+        <Button
+            style="@style/ButtonStyle"
+            android:text="@string/buttonArtist"
+            app:icon="@drawable/ic_artist" />
+
+        <ImageView
+            style="@style/ArrowStyle"
+            android:contentDescription="@string/descriptionArrow" />
+    </RelativeLayout>
+
+    <RelativeLayout style="@style/HorizontalLL">
+
+        <Button
+            style="@style/ButtonStyle"
+            android:text="@string/buttonSubscriptions"
+            app:icon="@drawable/ic_subscriptions" />
+
+        <ImageView
+            style="@style/ArrowStyle"
+            android:contentDescription="@string/descriptionArrow" />
+    </RelativeLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginTop="@dimen/margin_default"
+        android:background="#83494848" />
+</LinearLayout>

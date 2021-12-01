@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    style="@style/HeaderStyle"
+    android:background="@drawable/gradient_background_first_screen">
+
+    <!--App name and App Icon-->
+    <TextView
+        style="@style/ActivityLabelStyle"
+        android:drawablePadding="@dimen/margin_small"
+        android:gravity="center_vertical"
+        android:text="@string/app_name"
+        app:drawableStartCompat="@drawable/ic_cd" />
+
+    <RelativeLayout style="@style/HorizontalLL">
+
+        <Button
+            android:id="@+id/button_chart"
+            style="@style/ButtonStyle"
+            android:text="@string/buttonChart"
+            app:icon="@drawable/ic_chart" />
+
+        <ImageView
+            style="@style/ArrowStyle"
+            android:contentDescription="@string/descriptionArrow" />
+    </RelativeLayout>
+
+    <RelativeLayout style="@style/HorizontalLL">
+
+        <Button
+            android:id="@+id/button_library"
+            style="@style/ButtonStyle"
+            android:text="@string/buttonLibrary"
+            app:icon="@drawable/ic_library" />
+
+        <ImageView
+            style="@style/ArrowStyle"
+            android:contentDescription="@string/descriptionArrow" />
+    </RelativeLayout>
+
+    <View
+        android:layout_marginTop="@dimen/margin_default"
+        android:background="#83494848"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"/>
+
+    <!--Favorites Label-->
+    <TextView
+        style="@style/SectionLabelStyle"
+        android:layout_marginTop="@dimen/margin_top_header"
+        android:text="@string/labelFavorites" />
+</LinearLayout>

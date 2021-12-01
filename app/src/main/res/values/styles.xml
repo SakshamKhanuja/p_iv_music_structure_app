@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--Base Application Theme-->
+    <style name="AppTheme" parent="Theme.MaterialComponents.Light.NoActionBar">
+        <item name="android:windowTranslucentStatus">true</item>
+        <item name="android:colorAccent">@color/colorPrimaryDark</item>
+        <item name="android:colorBackground">@color/colorPrimaryDark</item>
+        <item name="android:textColor">@color/colorText</item>
+        <item name="android:textSize">@dimen/text_size_default</item>
+    </style>
+
+    <!--View having width and height as "wrap_content".-->
+    <style name="BasicView">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+
+    <!--View having width and height as "match_parent".-->
+    <style name="FullView">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+    </style>
+
+    <!--Basic Vertical LinearLayout-->
+    <style name="VerticalLL">
+        <item name="android:orientation">vertical</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+
+    <!--Basic Horizontal LinearLayout-->
+    <style name="HorizontalLL">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+
+    <!--Contains song details-->
+    <style name="SongContainer" parent="HorizontalLL">
+        <item name="android:padding">@dimen/padding_small</item>
+    </style>
+
+    <!--Section Label-->
+    <style name="SectionLabelStyle" parent="BasicView">
+        <item name="android:textStyle">bold</item>
+        <item name="android:textSize">@dimen/text_size_label_section</item>
+    </style>
+
+    <!--Song Name-->
+    <style name="SongNameStyle" parent="BasicView">
+        <item name="android:textStyle">bold</item>
+        <item name="android:textSize">@dimen/text_size_label_song</item>
+        <item name="android:maxLines">2</item>
+        <item name="android:ellipsize">end</item>
+    </style>
+
+    <!--Artist Name-->
+    <style name="ArtistNameStyle" parent="BasicView">
+        <item name="android:maxLines">2</item>
+        <item name="android:textColor">@color/colorYear</item>
+        <item name="android:ellipsize">end</item>
+        <item name="android:textSize">@dimen/text_size_label_year</item>
+    </style>
+
+    <!--Artist Name-->
+    <style name="YearStyle" parent="BasicView">
+        <item name="android:textSize">@dimen/text_size_label_year</item>
+        <item name="android:textColor">@color/colorYear</item>
+    </style>
+
+    <!--Album Art Container-->
+    <style name="AlbumArtStyle">
+        <item name="android:layout_height">@dimen/album_art</item>
+        <item name="android:layout_width">@dimen/album_art</item>
+        <item name="android:layout_gravity">center_vertical</item>
+    </style>
+
+    <!--Arrow Style-->
+    <style name="ArrowStyle" parent="BasicView">
+        <item name="android:layout_alignParentEnd">true</item>
+        <item name="android:layout_centerVertical">true</item>
+        <item name="android:layout_marginEnd">@dimen/margin_small</item>
+        <item name="android:src">@drawable/ic_arrow</item>
+    </style>
+
+    <!--Weight Width-->
+    <style name="WeightWidth">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+
+    <!--Chart Style-->
+    <style name="ChartStyle" parent="WeightWidth">
+        <item name="android:layout_height">@dimen/chart_height</item>
+        <item name="android:orientation">vertical</item>
+        <item name="android:gravity">center</item>
+    </style>
+
+    <!--Button Style-->
+    <style name="ButtonStyle" parent="Widget.MaterialComponents.Button.TextButton">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="iconPadding">@dimen/padding_default</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="iconTint">@color/colorText</item>
+        <item name="android:textColor">@color/colorText</item>
+        <item name="android:textSize">@dimen/text_size_label_song</item>
+        <item name="android:gravity">start</item>
+        <item name="android:clickable">true</item>
+        <item name="android:focusable">true</item>
+        <item name="android:padding">@dimen/padding_small</item>
+        <item name="rippleColor">@color/colorRipple</item>
+    </style>
+
+    <!--Header Style-->
+    <style name="HeaderStyle" parent="VerticalLL">
+        <item name="android:paddingStart">@dimen/padding_default</item>
+        <item name="android:paddingEnd">@dimen/padding_default</item>
+        <item name="android:paddingTop">@dimen/padding_top_first</item>
+        <item name="android:paddingBottom">@dimen/padding_default</item>
+    </style>
+
+    <!--Activity Label Style-->
+    <style name="ActivityLabelStyle" parent="SectionLabelStyle">
+        <item name="android:layout_marginTop">@dimen/margin_default</item>
+        <item name="android:layout_marginBottom">@dimen/margin_default</item>
+        <item name="android:layout_marginStart">@dimen/margin_default</item>
+    </style>
+</resources>
