@@ -3,6 +3,7 @@
     <!--Base Application Theme-->
     <style name="AppTheme" parent="Theme.MaterialComponents.Light.NoActionBar">
         <item name="android:windowTranslucentStatus">true</item>
+        <item name="android:navigationBarColor">@color/colorPrimaryDark</item>
         <item name="colorAccent">@color/colorHint</item>
         <item name="android:colorBackground">@color/colorPrimaryDark</item>
         <item name="android:textColor">@color/colorText</item>
