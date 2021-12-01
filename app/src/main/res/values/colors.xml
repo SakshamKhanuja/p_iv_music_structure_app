@@ -2,14 +2,13 @@
 <resources>
     <color name="colorPrimaryDark">@android:color/black</color>
     <color name="colorAccent">@android:color/white</color>
-    <color name="colorButton">#4A148C</color>
     <color name="colorText">@android:color/white</color>
-    <color name="colorGradient">#974A148C</color>
+    <color name="colorGradientHome">#974A148C</color>
+    <color name="colorGradientCharts">#8A1DB954</color>
+    <color name="colorGradientLibrary">#95880E4F</color>
     <color name="colorHint">#424242</color>
     <color name="colorYear">#AAAAAA</color>
-    <color name="colorTop10">#BF360C</color>
-    <color name="colorNewArrival">#01579B</color>
-    <color name="colorOldIsGold">#EF6C00</color>
     <color name="colorGenreRock">#00C853</color>
+    <color name="colorDivider">#83494848</color>
     <color name="colorRipple">#31FFFFFF</color>
 </resources>

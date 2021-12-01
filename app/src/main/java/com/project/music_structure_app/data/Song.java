@@ -23,12 +23,25 @@ public class Song {
     // Album Art
     private final int albumArtID;
 
+    // Stores the name of the category that a Song belongs to.
     private String categoryName;
 
+    // Indicates whether a song belongs in "Your Favorites" category.
     private boolean songIsInFavoriteCategory;
 
+    /**
+     * Indicates whether to add {@link com.project.music_structure_app.R.drawable#ic_chart}
+     * drawable along with the "Charts" category name.
+     */
     private boolean chartDrawablePresent;
 
+    /**
+     * Drawable indicates whether a song in the "Charts" category is rising up or going down the
+     * ranks:
+     * <p>
+     * For rising up : {@link com.project.music_structure_app.R.drawable#ic_inc}
+     * For going down : {@link com.project.music_structure_app.R.drawable#ic_desc}
+     */
     private int rankDrawable;
 
     private boolean songIsInCharts;

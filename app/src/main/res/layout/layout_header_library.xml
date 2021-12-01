@@ -10,57 +10,71 @@
         android:layout_marginTop="@dimen/margin_top_header"
         android:text="@string/labelLibrary" />
 
+    <!--Number of Playlists-->
     <RelativeLayout style="@style/HorizontalLL">
 
+        <!--Playlist Label-->
         <Button
             style="@style/ButtonStyle"
+            android:clickable="false"
             android:text="@string/buttonPlaylist"
             app:icon="@drawable/ic_playlist" />
 
-        <ImageView
-            style="@style/ArrowStyle"
-            android:contentDescription="@string/descriptionArrow" />
+        <TextView
+            style="@style/EndStyle"
+            android:contentDescription="@string/descriptionArrow"
+            android:text="@string/numPlaylist" />
     </RelativeLayout>
 
+    <!--Number of Albums-->
     <RelativeLayout style="@style/HorizontalLL">
 
+        <!--Album Label-->
         <Button
             style="@style/ButtonStyle"
+            android:clickable="false"
             android:text="@string/buttonAlbum"
             app:icon="@drawable/ic_album" />
 
-        <ImageView
-            style="@style/ArrowStyle"
-            android:contentDescription="@string/descriptionArrow" />
+        <TextView
+            style="@style/EndStyle"
+            android:contentDescription="@string/descriptionArrow"
+            android:text="@string/numAlbum" />
     </RelativeLayout>
 
+    <!--Number of Artists-->
     <RelativeLayout style="@style/HorizontalLL">
 
+        <!--Artist Label-->
         <Button
             style="@style/ButtonStyle"
+            android:clickable="false"
             android:text="@string/buttonArtist"
             app:icon="@drawable/ic_artist" />
 
-        <ImageView
-            style="@style/ArrowStyle"
-            android:contentDescription="@string/descriptionArrow" />
+        <TextView
+            style="@style/EndStyle"
+            android:contentDescription="@string/descriptionArrow"
+            android:text="@string/numArtist" />
     </RelativeLayout>
 
+    <!--Number of Subscriptions-->
     <RelativeLayout style="@style/HorizontalLL">
 
+        <!--Subscription Label-->
         <Button
             style="@style/ButtonStyle"
+            android:clickable="false"
             android:text="@string/buttonSubscriptions"
             app:icon="@drawable/ic_subscriptions" />
 
-        <ImageView
-            style="@style/ArrowStyle"
-            android:contentDescription="@string/descriptionArrow" />
+        <TextView
+            style="@style/EndStyle"
+            android:contentDescription="@string/descriptionArrow"
+            android:text="@string/numSub" />
     </RelativeLayout>
 
+    <!--Divider-->
     <View
-        android:layout_width="match_parent"
-        android:layout_height="1dp"
-        android:layout_marginTop="@dimen/margin_default"
-        android:background="#83494848" />
+        style="@style/DividerStyle" />
 </LinearLayout>

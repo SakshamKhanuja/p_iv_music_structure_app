@@ -2,7 +2,7 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     style="@style/HeaderStyle"
-    android:background="@drawable/gradient_background_genre_screen">
+    android:background="@drawable/gradient_charts">
 
     <!--Search Label-->
     <TextView
@@ -26,13 +26,11 @@
         android:textColorHint="@color/colorHint"
         android:textStyle="bold" />
 
+    <!--Divider-->
     <View
-        android:layout_width="match_parent"
-        android:layout_height="1dp"
-        android:layout_marginTop="@dimen/margin_default"
-        android:background="#83494848" />
+        style="@style/DividerStyle" />
 
-    <!--Favorites Label-->
+    <!--Charts Label-->
     <TextView
         style="@style/SectionLabelStyle"
         android:layout_marginTop="@dimen/margin_top_header"

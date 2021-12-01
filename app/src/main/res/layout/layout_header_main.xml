@@ -2,7 +2,7 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     style="@style/HeaderStyle"
-    android:background="@drawable/gradient_background_first_screen">
+    android:background="@drawable/gradient_home">
 
     <!--App name and App Icon-->
     <TextView
@@ -14,6 +14,7 @@
 
     <RelativeLayout style="@style/HorizontalLL">
 
+        <!--Charts Button-->
         <Button
             android:id="@+id/button_chart"
             style="@style/ButtonStyle"
@@ -27,6 +28,7 @@
 
     <RelativeLayout style="@style/HorizontalLL">
 
+        <!--Library Button-->
         <Button
             android:id="@+id/button_library"
             style="@style/ButtonStyle"
@@ -38,11 +40,9 @@
             android:contentDescription="@string/descriptionArrow" />
     </RelativeLayout>
 
+    <!--Divider-->
     <View
-        android:layout_marginTop="@dimen/margin_default"
-        android:background="#83494848"
-        android:layout_width="match_parent"
-        android:layout_height="1dp"/>
+        style="@style/DividerStyle" />
 
     <!--Favorites Label-->
     <TextView

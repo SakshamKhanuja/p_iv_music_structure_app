@@ -46,22 +46,24 @@ public class SongAdapter extends ArrayAdapter<Song> {
             TextView textIndex = itemView.findViewById(R.id.item_index);
             ImageView imageRank = itemView.findViewById(R.id.item_rank);
 
-            // Checks if song is in "You May Also Like" category.
+            // Sets index, rank drawable, tune logo.
             if (song.isSongIsInCharts()) {
+                // Song is in the "Charts" category.
                 textIndex.setText(String.valueOf(song.getIndex()));
                 imageRank.setImageDrawable(AppCompatResources.getDrawable(getContext(),
                         song.getRankDrawable()));
                 textIndex.setVisibility(View.VISIBLE);
                 imageRank.setVisibility(View.VISIBLE);
             } else {
-                imageRank.setVisibility(View.GONE);
                 // Song is from "First" screen.
                 if (song.isSongIsInFavoriteCategory()) {
+                    imageRank.setVisibility(View.GONE);
                     textIndex.setText(String.valueOf(song.getIndex()));
                     textIndex.setVisibility(View.VISIBLE);
                 } else {
                     // Song is in "You May Also Like" category.
                     textIndex.setVisibility(View.GONE);
+                    imageRank.setVisibility(View.VISIBLE);
                 }
             }
 
@@ -88,13 +90,14 @@ public class SongAdapter extends ArrayAdapter<Song> {
             // Show next Category Label
             TextView textSongCategory = itemView.findViewById(R.id.item_category);
             TextView textSongChartCategory = itemView.findViewById(R.id.item_chart_category);
+
+            // Checks if song is placed at the last position of its Category.
             if (song.isLastOfCategory()) {
                 // Checks if song is under Chart Category.
                 if (song.isChartDrawablePresent()) {
                     textSongCategory.setVisibility(View.GONE);
                     textSongChartCategory.setText(song.getCategoryName());
                     textSongChartCategory.setVisibility(View.VISIBLE);
-
                 } else {
                     textSongChartCategory.setVisibility(View.GONE);
                     textSongCategory.setText(song.getCategoryName());

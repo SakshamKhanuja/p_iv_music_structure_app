@@ -65,23 +65,23 @@ public class SongData {
 
             case 2:
                 ArrayList<Song> library = new ArrayList<>();
-                library.add(new Song(1, "Jugni", "Kanika Kapoor", 2012, "3:30", R.drawable.album_art_lib_one));
-                library.add(new Song(2, "After Party", "Kanika Kapoor", 2021, "3:08", R.drawable.album_art_lib_two));
-                library.add(new Song(3, "This House", "Tom MacDonald", 2018, "3:27", R.drawable.album_art_lib_three));
-                library.add(new Song(4, "Jugni 2.0", "Kanika Kapoor", 2020, "3:13", R.drawable.album_art_fav_three));
-                library.add(new Song(5, "Udd Gaye", "Ritviz", 2017, "3:00", R.drawable.album_art_fav_seven));
-                library.add(new Song(6, "Tokoyo Drift", "Teriyaki Boyz", 2012, "4:17", R.drawable.album_art_fav_six));
-                library.add(new Song(7, "Pro", "Neffex", 2017, "3:37", R.drawable.album_art_lib_four));
-                library.add(new Song(8, "Knightridah", "Imran Khan", 2018, "3:12", R.drawable.album_art_lib_five));
-                library.add(new Song(9, "Something You Could Never Own", "Neffex", 2021, "2:48", R.drawable.album_art_fav_one));
-                library.add(new Song(10, "Majha Block", "Prem Dhillon", 2020, "4:06", R.drawable.album_art_fav_two));
-                library.add(new Song(11, "Presiden Roley", "Imran Khan", 2017, "3:03", R.drawable.album_art_lib_six));
-                library.add(new Song(12, "Double Addi", "Micky Singh, Amar Sandhu", 2014, "4:08", R.drawable.album_art_fav_four));
-                library.add(new Song(13, "It's Only Worth It If You Work For It", "Neffex", 2021, "3:04", R.drawable.album_art_lib_seven));
-                library.add(new Song(14, "A Year Ago", "Neffex", 2021, "2:55", R.drawable.album_art_lib_eight));
-                library.add(new Song(15, "No Turning Back", "Neffex", 2021, "2:38", R.drawable.album_art_lib_nine));
-                library.add(new Song(16, "Closer To Heaven", "Neffex", 2020, "3:05", R.drawable.album_art_lib_ten));
-                library.add(new Song(15, "Closer (Remix)", "The Chainsmokers", 2016, "4:21", R.drawable.album_art_fav_five));
+                library.add(new Song("Jugni", "Kanika Kapoor", 2012, "3:30", R.drawable.album_art_lib_one));
+                library.add(new Song("After Party", "Kanika Kapoor", 2021, "3:08", R.drawable.album_art_lib_two));
+                library.add(new Song("This House", "Tom MacDonald", 2018, "3:27", R.drawable.album_art_lib_three));
+                library.add(new Song("Jugni 2.0", "Kanika Kapoor", 2020, "3:13", R.drawable.album_art_fav_three));
+                library.add(new Song("Udd Gaye", "Ritviz", 2017, "3:00", R.drawable.album_art_fav_seven));
+                library.add(new Song("Tokoyo Drift", "Teriyaki Boyz", 2012, "4:17", R.drawable.album_art_fav_six));
+                library.add(new Song("Pro", "Neffex", 2017, "3:37", R.drawable.album_art_lib_four));
+                library.add(new Song("Knightridah", "Imran Khan", 2018, "3:12", R.drawable.album_art_lib_five));
+                library.add(new Song("Something You Could Never Own", "Neffex", 2021, "2:48", R.drawable.album_art_fav_one));
+                library.add(new Song("Majha Block", "Prem Dhillon", 2020, "4:06", R.drawable.album_art_fav_two));
+                library.add(new Song("Presiden Roley", "Imran Khan", 2017, "3:03", R.drawable.album_art_lib_six));
+                library.add(new Song("Double Addi", "Micky Singh, Amar Sandhu", 2014, "4:08", R.drawable.album_art_fav_four));
+                library.add(new Song("It's Only Worth It If You Work For It", "Neffex", 2021, "3:04", R.drawable.album_art_lib_seven));
+                library.add(new Song("A Year Ago", "Neffex", 2021, "2:55", R.drawable.album_art_lib_eight));
+                library.add(new Song("No Turning Back", "Neffex", 2021, "2:38", R.drawable.album_art_lib_nine));
+                library.add(new Song("Closer To Heaven", "Neffex", 2020, "3:05", R.drawable.album_art_lib_ten));
+                library.add(new Song("Closer (Remix)", "The Chainsmokers", 2016, "4:21", R.drawable.album_art_fav_five));
                 return library;
 
             default:

@@ -1,5 +1,6 @@
-<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+<resources>
     <string name="app_name">Music</string>
+    <string name="activityCategory">Category Activity</string>
 
     <!--First Screen-->
     <string name="descriptionFAB">Search Music</string>
@@ -32,6 +33,10 @@
 
     <!--My Library Screen-->
     <string name="labelLibrary">My Library</string>
+    <string name="numPlaylist">2</string>
+    <string name="numAlbum">5</string>
+    <string name="numArtist">10</string>
+    <string name="numSub">8</string>
 
     <!--Album Art-->
     <string name="descriptionAlbumArt">Album Art</string>
